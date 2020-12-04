@@ -32,8 +32,7 @@ def grep(args):
         filter_object = [filtered_object for filtered_object in content if check_if_word_exist(filtered_object)]
 
     for word in filter_object:
-        print(word)
+        # Add color to specific word
+        print(f'{word}'.replace(args.word, bcolors.FAIL + args.word + bcolors.ENDC))
 
 grep(args)
-
-
