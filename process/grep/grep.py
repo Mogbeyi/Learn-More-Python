@@ -27,12 +27,13 @@ def grep(args):
     def check_if_word_exist(word):
         return args.word in word 
 
-    with open(args.files[0], 'r') as file_obj:
-        content = [strip_new_line(content) for content in file_obj.readlines()]
-        filter_object = [filtered_object for filtered_object in content if check_if_word_exist(filtered_object)]
+    for file in args.files:
+        with open(file, 'r') as file_obj:
+            content = [strip_new_line(content) for content in file_obj.readlines()]
+            filter_object = [filtered_object for filtered_object in content if check_if_word_exist(filtered_object)]
 
-    for word in filter_object:
-        # Add color to specific word
-        print(f'{word}'.replace(args.word, bcolors.FAIL + args.word + bcolors.ENDC))
+        for word in filter_object:
+            # Add color to specific word
+            print(f'{word}'.replace(args.word, bcolors.FAIL + args.word + bcolors.ENDC))
 
 grep(args)
