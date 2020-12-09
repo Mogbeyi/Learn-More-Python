@@ -1,0 +1,15 @@
+PING www.google.com (216.58.223.228): 56 data bytes
+64 bytes from 216.58.223.228: icmp_seq=0 ttl=116 time=73.392 ms
+64 bytes from 216.58.223.228: icmp_seq=1 ttl=116 time=53.472 ms
+64 bytes from 216.58.223.228: icmp_seq=2 ttl=116 time=54.202 ms
+64 bytes from 216.58.223.228: icmp_seq=3 ttl=116 time=54.736 ms
+64 bytes from 216.58.223.228: icmp_seq=4 ttl=116 time=56.404 ms
+64 bytes from 216.58.223.228: icmp_seq=5 ttl=116 time=58.195 ms
+64 bytes from 216.58.223.228: icmp_seq=6 ttl=116 time=57.908 ms
+64 bytes from 216.58.223.228: icmp_seq=7 ttl=116 time=57.087 ms
+64 bytes from 216.58.223.228: icmp_seq=8 ttl=116 time=57.235 ms
+64 bytes from 216.58.223.228: icmp_seq=9 ttl=116 time=56.498 ms
+
+--- www.google.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 53.472/57.913/73.392/5.373 ms

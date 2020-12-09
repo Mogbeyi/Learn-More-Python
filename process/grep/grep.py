@@ -37,3 +37,6 @@ def grep(args):
             print(f'{word}'.replace(args.word, bcolors.FAIL + args.word + bcolors.ENDC))
 
 grep(args)
+
+#Example usage
+#python grep.py google ping.txt
