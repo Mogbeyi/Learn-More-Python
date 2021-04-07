@@ -6,25 +6,25 @@ class bcolors:
     HEADER = "\033[95m"
     OKBLUE = "\033[94m"
     OKCYAN = "\033[96m"
-    OKGREEN = "\033[92m"
-    WARNING = "\033[93m"
-    FAIL = "\033[91m"
-    ENDC = "\033[0m"
-    BOLD = "\033[1m"
-    UNDERLINE = "\033[4m"
+    okgreen = "\033[92m"
+    warning = "\033[93m"
+    fail = "\033[91m"
+    endc = "\033[0m"
+    bold = "\033[1m"
+    underline = "\033[4m"
 
 
-parser = argparse.ArgumentParser(description="finds specific content files")
+parser = argparse.argumentparser(description="finds specific content files")
 parser.add_argument(
-    "word", metavar="F", type=str, help="A program to print content of files"
+    "word", metavar="f", type=str, help="a program to print content of files"
 )
 
 parser.add_argument(
     "files",
-    metavar="F",
+    metavar="f",
     type=str,
     nargs="+",
-    help="A program to print content of files",
+    help="a program to print content of files",
 )
 
 args = parser.parse_args()
