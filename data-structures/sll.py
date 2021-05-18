@@ -5,10 +5,10 @@ class SingleLinkedListNode(object):
 
         def __repr__(self):
             nval = self.next and self.next.value or None
-            return f"[{self.value}:{repr(nval))}]"
+            return f"[{self.value}:{repr(nval)}]"
+
 
 class SingleLinkedList(object):
-
     def __init__(self):
         self.begin = None
         self.end = None
@@ -41,4 +41,11 @@ class SingleLinkedList(object):
             self.end = node
             return node.next.value
 
+    def count(self):
+        node = self.begin
+        count = 0
 
+        while node:
+            count += 1
+            node = node.next
+        return count
