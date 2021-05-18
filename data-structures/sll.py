@@ -25,3 +25,20 @@ class SingleLinkedList(object):
             assert self.begin != self.end
 
         assert self.end.next == None
+
+    def pop(self):
+        if self.end == None:
+            return None
+        elif self.end == self.begin:
+            node = self.begin
+            self.end = self.begin = None
+            return node.value
+        else:
+            node = self.begin
+            while node.next != self.end:
+                node = node.next
+            assert self.end != node
+            self.end = node
+            return node.next.value
+
+
