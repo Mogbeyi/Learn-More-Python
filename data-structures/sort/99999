@@ -2,3 +2,8 @@
 : 1621950530:0;touch dllist.py sorting.py sorting_quicksolved.py test_sorting.py
 : 1621950535:0;vim dllist.py
 : 1621950555:0;git add .
+: 1621950568:0;git commit -m "Implement double linked list for sorting"
+: 1621950572:0;git push
+: 1621950590:0;ls
+: 1621950594:0;vim sorting.py
+: 1621950603:0;git add .
