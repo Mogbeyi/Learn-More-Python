@@ -1,0 +1,4 @@
+: 1621950490:0;ls
+: 1621950530:0;touch dllist.py sorting.py sorting_quicksolved.py test_sorting.py
+: 1621950535:0;vim dllist.py
+: 1621950555:0;git add .
