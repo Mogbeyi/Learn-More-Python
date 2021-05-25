@@ -7,3 +7,7 @@
 : 1621950590:0;ls
 : 1621950594:0;vim sorting.py
 : 1621950603:0;git add .
+: 1621950617:0;git commit -m "Implement sorting algorithm"
+: 1621950620:0;git push
+: 1621950645:0;vim sorting_quicksolved.py
+: 1621950663:0;git commit -am "Implement sorting quick solved"
