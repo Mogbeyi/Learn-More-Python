@@ -11,3 +11,8 @@
 : 1621950620:0;git push
 : 1621950645:0;vim sorting_quicksolved.py
 : 1621950663:0;git commit -am "Implement sorting quick solved"
+: 1621950666:0;git push
+: 1621950708:0;clear
+: 1621950708:0;ls
+: 1621950714:0;vim test_sorting.py
+: 1621950887:0;git commit -am "Write tests for sorting algorithms"
