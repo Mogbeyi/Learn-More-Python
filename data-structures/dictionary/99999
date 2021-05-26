@@ -2,3 +2,7 @@
 : 1622025090:0;touch dictionary.py dllist.py
 : 1622025095:0;vim dictionary.py
 : 1622025112:0;git add .
+: 1622025122:0;git commit -m "Implement dictionary"
+: 1622025127:0;git push
+: 1622025133:0;vim dllist.py
+: 1622025153:0;git add .
