@@ -6,3 +6,6 @@
 : 1622025127:0;git push
 : 1622025133:0;vim dllist.py
 : 1622025153:0;git add .
+: 1622025167:0;git commit -m "Add double linked list file"
+: 1622025170:0;git push
+: 1622025589:0;cd ..
