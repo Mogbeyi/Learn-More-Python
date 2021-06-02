@@ -1,0 +1,44 @@
+: 1622633147:0;clear
+: 1622633147:0;ls
+: 1622633158:0;mv suffix.py suffix-tree.py
+: 1622633167:0;touch suffix-tree.test.py
+: 1622633169:0;clear
+: 1622633170:0;ls
+: 1622633263:0;python
+: 1622633408:0;ls
+: 1622633413:0;vim suffix-tree.test.py
+: 1622633517:0;ls
+: 1622633523:0;cat suffix-tree.py
+: 1622633531:0;ls
+: 1622633535:0;vim suffix-tree.test.py
+: 1622634527:0;python suffix-tree.test.py
+: 1622634535:0;ls
+: 1622634541:0;vim suffix-tree.py
+: 1622634547:0;vim suffix-tree.test.py
+: 1622634610:0;python suffix-tree.test.py
+: 1622634634:0;ls
+: 1622634644:0;mv suffix-tree.py suffix_tree.py
+: 1622634662:0;mv suffix-tree.test.py suffix_tree.test.py
+: 1622634663:0;ls
+: 1622634667:0;vim suffix_tree.test.py
+: 1622634685:0;python suffix_tree.test.py
+: 1622634769:0;vim suffix_tree.test.py
+: 1622634780:0;python suffix_tree.test.py
+: 1622634854:0;vim suffix_tree.test.py
+: 1622635020:0;python suffix_tree.test.py
+: 1622635034:0;vim suffix_tree.test.py
+: 1622635083:0;python suffix_tree.test.py
+: 1622635137:0;vim suffix_tree.test.py
+: 1622635159:0;python suffix_tree.test.py
+: 1622635718:0;vim suffix_tree.test.py
+: 1622636273:0;python suffix_tree.test.py
+: 1622636282:0;vim suffix_tree.test.py
+: 1622636336:0;python suffix_tree.test.py
+: 1622636369:0;vim suffix_tree.test.py
+: 1622636400:0;python suffix_tree.test.py
+: 1622636408:0;vim suffix_tree.test.py
+: 1622636458:0;python suffix_tree.test.py
+: 1622636479:0;vim suffix_tree.test.py
+: 1622636531:0;python suffix_tree.test.py
+: 1622636538:0;ls
+: 1622636541:0;git add .
