@@ -7,7 +7,7 @@ class TestSuffixTree(unittest.TestCase):
 
     def test_get_suffix_array(self):
         self.assertIn('abra', self.suffix_tree.get_suffix_array())
-
+    
 if __name__ == '__main__':
     unittest.main()
     

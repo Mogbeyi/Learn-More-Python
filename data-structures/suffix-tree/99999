@@ -42,3 +42,11 @@
 : 1622636531:0;python suffix_tree.test.py
 : 1622636538:0;ls
 : 1622636541:0;git add .
+: 1622636556:0;git commit -m "Write test for get suffix array"
+: 1622636559:0;git push
+: 1622636570:0;vim suffix_tree.test.py
+: 1622653206:0;git diff
+: 1622653220:0;ls
+: 1622653226:0;python suffix_tree.test.py
+: 1622653233:0;git log --oneline
+: 1622653255:0;git commit -am "Update test for suffix_tree"

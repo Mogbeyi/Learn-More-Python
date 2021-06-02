@@ -113,3 +113,10 @@
 : 1622631346:0;python suffix.py
 : 1622631845:0;vim suffix.py
 : 1622632948:0;git add .
+: 1622632977:0;git commit -m
+: 1622632982:0;git commit
+: 1622633027:0;git push
+: 1622633036:0;vim suffix.py
+: 1622633121:0;ls
+: 1622633142:0;mkdir suffix-tree && mv suffix.py suffix-tree
+: 1622633146:0;cd suffix-tree
