@@ -71,3 +71,45 @@
 : 1622593290:0;ls
 : 1622593311:0;vim bst.py
 : 1622593330:0;git commit -am "Implement binary search tree"
+: 1622593334:0;git push
+: 1622593341:0;ls
+: 1622627391:0;git diff
+: 1622627438:0;ls
+: 1622627450:0;vim suffix.py
+: 1622627665:0;ls
+: 1622627677:0;exit
+: 1622627687:0;python suffix.py
+: 1622627802:0;exit
+: 1622627817:0;python suffix.py
+: 1622627826:0;vim suffix.py
+: 1622628531:0;ls
+: 1622628533:0;python suffix.py
+: 1622628555:0;vim suffix.py
+: 1622628663:0;python suffix.py
+: 1622628672:0;vim suffix.py
+: 1622628690:0;python suffix.py
+: 1622628693:0;vim suffix.py
+: 1622629484:0;python suffix.py
+: 1622629656:0;ls
+: 1622629662:0;vim suffix.py
+: 1622629856:0;python suffix.py
+: 1622629901:0;exit
+: 1622629912:0;python suffix.py
+: 1622629918:0;vim suffix.py
+: 1622629937:0;python suffix.py
+: 1622630020:0;exit
+: 1622630148:0;python suffix.py
+: 1622630160:0;vim suffix.py
+: 1622630188:0;python suffix.py
+: 1622630208:0;vim suffix.py
+: 1622630374:0;python suffix.py
+: 1622630389:0;vim suffix.py
+: 1622630413:0;python suffix.py
+: 1622630417:0;vim suffix.py
+: 1622630675:0;python suffix.py
+: 1622630691:0;vim suffix.py
+: 1622630701:0;python suffix.py
+: 1622630721:0;vim suffix.py
+: 1622631346:0;python suffix.py
+: 1622631845:0;vim suffix.py
+: 1622632948:0;git add .
